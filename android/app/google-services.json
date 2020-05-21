@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1067663993",
+    "firebase_url": "https://auth-d3cba.firebaseio.com",
+    "project_id": "auth-d3cba",
+    "storage_bucket": "auth-d3cba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067663993:android:e046520ccf3b439a344aa8",
+        "android_client_info": {
+          "package_name": "com.example.taskauthlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067663993-71oramdoab28e66u44vvkckigvtbhk6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Z9QJzPV3jKDPv01FHoK70HzeD9QEb4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067663993-71oramdoab28e66u44vvkckigvtbhk6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
