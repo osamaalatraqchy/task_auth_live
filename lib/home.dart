@@ -3,9 +3,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'Card/customCard.dart';
-
+// i edit this code.....
 class HomePage extends StatefulWidget {
-  HomePage({Key key, this.title, this.uid}) : super(key: key); //update this to include the uid in the constructor
+  HomePage({ this.title, this.uid}); //update this to include the uid in the constructor
   final String title;
   final String uid; //include this
 
