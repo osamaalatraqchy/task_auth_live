@@ -7,7 +7,7 @@ import 'Card/customCard.dart';
 //this is by osama
 class HomePage extends StatefulWidget {
   HomePage({ this.title, this.uid}); //update this to include the uid in the constructor
-  final String title;
+  final String name;
   final String uid; //include this
 
   @override
