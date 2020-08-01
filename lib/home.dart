@@ -5,7 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'Card/customCard.dart';
 // i edit this code.....
 //this is by i
-class HomePage extends StatefulWidget {
+class HomePage extends jjjj {
   HomePage({ this.title, this.uid}); //update this to include the uid in the constructor
   final String name;
   final String uid; //include this
