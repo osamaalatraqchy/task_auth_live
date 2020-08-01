@@ -54,9 +54,7 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.all(20.0),
             child: StreamBuilder<QuerySnapshot>(
               stream: Firestore.instance
-                  .collection("users")
-                  .document(widget.uid)
-                  .collection('tasks')
+                  .collection("tasks")
                   .snapshots(),
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
@@ -123,6 +121,11 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 if(taskTitleInputController.text.isNotEmpty && taskDescripInputController.text.isNotEmpty){
                   Firestore.instance.collection("users").document(widget.uid).collection("tasks")
+                      .add({
+                    'title' : taskTitleInputController.text,
+                    'desc' : taskDescripInputController.text
+                  });
+                  Firestore.instance.collection("tasks")
                       .add({
                     'title' : taskTitleInputController.text,
                     'desc' : taskDescripInputController.text
